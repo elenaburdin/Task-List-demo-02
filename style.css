@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Main */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    color: #333;
+}
+
+#wrapper {
+    display: flex;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 32px;
+}
+
+/* Left Side */
+
+#left-side {
+    background: url('https://images.unsplash.com/photo-1518720457-a22f2c45d5b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80') no-repeat center center/cover;
+    height: 100vh;
+    /* width: 400px; */
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#left-side .container {
+    padding: 100px 25px;
+}
+
+#left-side .container p {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#left-side #searchTask[type="text"] {
+    align-items: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    width: 332px;
+}
+
+
+/* Rigjt side */
+#right-side {
+    width: 75vw;
+    display: flex;
+}
+
+#right-side .container {
+    margin: auto;
+    background: #fcfcfc;
+    padding: 20px 40px;
+    color: #333;
+    width: 800px;
+
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+#right-side input[type="text"] {
+    padding: 5px 0;
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+#right-side input[type="submit"] {
+    cursor: pointer;
+    padding: 6.5px 0;
+    width: 100px;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    border: none;
+}
+
+#right-side input[type="submit"]:hover {
+    opacity: .80;
+}
+
+#right-side h3 {
+    padding-top: 20px;
+}
+
+#right-side ul {
+    list-style: none;
+}
+
+#right-side li {
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding: 15px 10px;
+    margin-top: 5px;
+}
+
+#right-side li .delete {
+    cursor: pointer;
+    float: right;
+    color: #fff;
+    background: #333;
+    border: none;
+    padding: 5px 5px;
+}
+
+#right-side li .delete:hover {
+    background: #df2935;
+}
